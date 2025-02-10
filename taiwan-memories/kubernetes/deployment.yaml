@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: taiwan-memories
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: taiwan-memories
+  template:
+    metadata:
+      labels:
+        app: taiwan-memories
+    spec:
+      containers:
+        - name: taiwan-memories
+          image: suyashgaikwad/taiwan-memories:1.1
+          ports:
+            - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: taiwan-memories-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: taiwan-memories
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+
