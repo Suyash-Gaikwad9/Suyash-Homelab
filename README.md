@@ -6,9 +6,13 @@ This repository documents my self-hosted homelab setup, where I experiment with 
 ---
 
 ## **🌍 Homelab Website is Live! 🎉**
-🌐 **Visit Here:** [homelab.techwithsuyash.cloud](http://homelab.techwithsuyash.cloud)
-
+🌐 **Visit Here:** [homelab.techwithsuyash.cloud](http://homelab.techwithsuyash.cloud)  
 This website serves as a landing page for all my self-hosted projects.
+
+## **📸 Taiwan Memories Website is Live! 🎉**
+📸 **Visit Here:** [picture.techwithsuyash.cloud](http://picture.techwithsuyash.cloud)  
+This website showcases **exceptional moments from my Taiwan visit (2023-2024)**.  
+It is **fully containerized** and **deployed on Kubernetes** inside my homelab. 🚀
 
 ---
 
@@ -42,6 +46,7 @@ This website serves as a landing page for all my self-hosted projects.
 |---------|------------|
 | **Nginx** | Reverse Proxy for Web Apps |
 | **Homelab Landing Page** | **Live** 🌐 [homelab.techwithsuyash.cloud](http://homelab.techwithsuyash.cloud) |
+| **Taiwan Memories** | **Live** 📸 [picture.techwithsuyash.cloud](http://picture.techwithsuyash.cloud) |
 | **Flask App** | Self-hosted web app for testing |
 | **MySQL** | Database for storing app data |
 | **Git** | Version control & automation |
@@ -53,6 +58,7 @@ This website serves as a landing page for all my self-hosted projects.
 - ✅ **Created a fancy HTML + CSS landing page**
 - ✅ **Connected Domain `homelab.techwithsuyash.cloud` via Cloudflare DNS**
 - ✅ **Fixed 403 Forbidden Error**
+- ✅ **Hosted `picture.techwithsuyash.cloud` with React + Vite**
 - ⏳ **Secure the setup with Let's Encrypt SSL (HTTPS)**
 - ⏳ **Deploy Docker to containerize all services**
 - ⏳ **Self-host GitHub alternative (Gitea) for private Git repositories**
@@ -72,5 +78,4 @@ This follows best practices for **GitOps & Infrastructure-as-Code**.
 3. **Expand self-hosted services**
 
 ---
-
 
