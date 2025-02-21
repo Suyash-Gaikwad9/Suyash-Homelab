@@ -24,7 +24,7 @@ It is **fully containerized** and **deployed on Kubernetes** inside my homelab. 
 ## **💻 Hardware Setup**  
 | Component       | Model/Specs |  
 |---------------|------------|  
-| **Main Server** | Fedora Machine (Intel i5, 16GB RAM, 512GB SSD) |  
+| **Main Server** | Ubuntu Machine (Intel i5, 16GB RAM, 512GB SSD) |  
 | **Remote Access** | Tailscale VPN + SSH |  
 | **Storage** | Local SSD |  
 
@@ -34,6 +34,7 @@ It is **fully containerized** and **deployed on Kubernetes** inside my homelab. 
 - ✅ **Remote Access**: **Wake-on-LAN + SSH** for worldwide access  
 - ✅ **Firewall & Security**: **UFW + Fail2Ban** to block intrusions  
 - ✅ **Networking**: **Static IP for stability**  
+- ✅ **Tailscale VPN**: **Secure access to homelab from anywhere**  
 
 ---
 
@@ -56,6 +57,8 @@ It is **fully containerized** and **deployed on Kubernetes** inside my homelab. 
 - ⏳ **Deploy Docker to containerize all services**  
 - ⏳ **Self-host GitHub alternative (Gitea) for private Git repositories**  
 - ⏳ **Automate server setup using Ansible**  
+- ⏳ **Create a homelab dashboard on homelab.techwithsuyash.cloud**
+
 
 ---
 
