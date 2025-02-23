@@ -1,0 +1,14 @@
+name: Self-Hosted Runner Test
+
+on: 
+  push:
+    branches:
+      - main
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  test-runner:
+    runs-on: [self-hosted, kubernetes, linux, amd64]
+    steps:
+      - name: Check Runner
+        run: echo "GitHub Actions Runner is working!"
